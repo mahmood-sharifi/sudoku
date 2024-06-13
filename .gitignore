@@ -1,0 +1,30 @@
+
+# Node modules
+/frontend/node_modules/
+/backend/node_modules/
+
+/# Logs
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/backend/npm-debug.log*
+/backend/yarn-debug.log*
+/backend/yarn-error.log*
+
+# Build outputs
+/frontend/.next/
+/frontend/out/
+/backend/dist/
+
+/# Environment variables
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/backend/.env
+
+# TypeScript cache
+/backend/*.tsbuildinfo
+
+# Others
+.DS_Store
